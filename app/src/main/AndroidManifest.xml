@@ -24,6 +24,8 @@
             android:name=".DrawRect"
             android:label="@string/title_activity_draw_rect" >
         </activity>
+
+
         <activity
             android:name=".DrawCircleActivity"
             android:label="@string/title_activity_draw_circle" >
@@ -32,6 +34,17 @@
             android:name=".drawCircle"
             android:label="@string/title_activity_draw_circle" >
         </activity>
+
+
+        <activity
+            android:name=".DrawLineActivity"
+            android:label="@string/title_activity_draw_line" >
+        </activity>
+        <activity
+            android:name=".DrawLine"
+            android:label="@string/title_activity_draw_line" >
+        </activity>
+
     </application>
 
 </manifest>

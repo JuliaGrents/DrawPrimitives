@@ -24,4 +24,9 @@ public class MainActivity extends Activity {
         Intent drawCircleIntent=new Intent(this, DrawCircleActivity.class);
         startActivity(drawCircleIntent);
     }
+
+    public void drawLine(View view) {
+        Intent drawLineIntent=new Intent(this, DrawLineActivity.class);
+        startActivity(drawLineIntent);
+    }
 }
