@@ -1,0 +1,27 @@
+package ee.juliagrents.drawprimitives;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void drawRect(View view) {
+        Intent drawRectIntent=new Intent(this, DrawRectActivity.class);
+        startActivity(drawRectIntent);
+
+    }
+
+
+    public void drawCircle(View view) {
+        Intent drawCircleIntent=new Intent(this, DrawCircleActivity.class);
+        startActivity(drawCircleIntent);
+    }
+}
